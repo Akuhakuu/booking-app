@@ -1,0 +1,92 @@
+.sidebar-item.active {
+    background-color: #4a6cf7;
+    /* Warna background untuk menu aktif */
+    color: #001ced;
+    /* Warna teks */
+    border-radius: 5px;
+}
+
+.sidebar-item.active a {
+    color: #ad0606;
+    font-weight: bold;
+}
+
+.table th {
+    background-color: #343a40;
+    color: white;
+}
+
+.table tbody tr:hover {
+    background-color: #f8f9fa;
+}
+
+.badge {
+    font-size: 14px;
+    padding: 5px 10px;
+}
+
+/* Styling untuk list kategori di sebelah kiri */
+.list-group-item {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.list-group-item img {
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+/* Styling untuk area horizontal scroll buku */
+.category-section {
+    margin-bottom: 30px;
+}
+
+.category-books {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    padding: 10px 0;
+}
+
+.book-card {
+    min-width: 160px;
+    max-width: 160px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+.book-card img {
+    max-height: 180px;
+    width: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.category-books::-webkit-scrollbar {
+    height: 6px;
+}
+
+.category-books::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+
+.category-books::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* Kustomisasi warna status buku */
+.text-success {
+    color: green;
+    /* Hijau untuk Tersedia */
+}
+
+.text-danger {
+    color: red;
+    /* Merah untuk Tidak Tersedia */
+}
